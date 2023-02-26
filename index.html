@@ -8,8 +8,27 @@
     <title>Генератор паролей</title>
 </head>
 <body>
+    <img class="img1" src="1.png"/>
+    <img class="img2" src="2.png"/>
+    <img class="img3" src="3.png"/>
     <div class="form form-width">
         <button class="button">Сгенерировать пароль</button>
+        <span class="password_length_hint">Длина пароля:</span>
+        <input type="number" id="password_length" value="8" />
+        <div class="settings">
+            <div>
+                <span class="settings_item_text">Цифры</span>
+                <input type="checkbox" checked id="numbers_checkbox"/>
+            </div>
+            <div>
+                <span class="settings_item_text">Латинские символы</span>
+                <input type="checkbox" checked id="letters_checkbox"/>
+            </div>
+            <div>
+                <span class="settings_item_text">Специальные символы</span>
+                <input type="checkbox" id="special_symbols_checkbox"/>
+            </div>
+        </div>
         <p class="password" id="password-parent" style="display: none;">
             Ваш пароль: <span id="password"></span>
         </p>
