@@ -31,28 +31,6 @@ body {
         width: 98%;
     }
 }
-img {
-    position: absolute;
-}
-.img1 {
-    margin-top: 0vh;
-    margin-left: -60vw;
-    width: 75px;
-    height: 75px;
-    border-radius: 20px;
-}
-.img2 {
-    margin-top: -30vh;
-    margin-left: -60vw;
-    width: 75px;
-    height: 75px;
-}
-.img3 {
-    margin-top: 33vh;
-    margin-left: -60vw;
-    width: 75px;
-    height: 75px;
-}
 .button {
     background-color: #40A4FF;
     border: 3px solid transparent;
